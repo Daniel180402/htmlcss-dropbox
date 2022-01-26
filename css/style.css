@@ -98,7 +98,7 @@ margin-left: 1.5rem;
 }
 
 .text-element-jumbo > p{
-    padding: 15px 0;
+    padding: 20px 0;
 }
 
 .text-element-jumbo > span{
@@ -111,26 +111,88 @@ margin-left: 1.5rem;
     max-width: 1180px;
     min-width: 650px;
     margin: 200px auto;
-    background-color: blueviolet;
 }
 
 .card{
     width: calc((100% / 3) - 40px);
-    height: 800px;
+    height: 1100px;
     margin: 20px 20px;
-    background-color: chartreuse;
+    border: 1px solid grey;
 }
 
 .card-header{
     width: 100%;
-    height: 50px;
-    background-color: hotpink;
+    height: 45px;
+    border-bottom: 1px solid grey;
+    line-height: 60px;
+    text-align: center;
+}
+
+.card-header > p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.card-content{
+    padding: 2em;
+    position: relative;
+}
+
+.card-content p{
+    padding-bottom: 20px;
+}
+
+.freetest-btn{
+    text-align: center;
+    padding-top: 2em;
+}
+
+.freetest-btn > a{
+    padding: 7px 50px;
+}
+
+.card-content span{
+    font-weight: 800;
+}
+
+.card-content > a{
+    color: #0061ff;
+}
+
+.or{
+    display: inline-block;
+    border-bottom: 1px solid grey;
+    padding: 35px 0;
+}
+
+.checklist{
+    padding-top: 40px;
+}
+
+.checklist ul{
+    list-style: none;
+}
+
+.checklist ul li{
+    padding-left: 0.5em;
+    padding-top: 1em;
+}
+
+#subription-condition{
+    color: grey;
+    padding-bottom: 55px;
+}
+
+.title-box{
+    padding-left: 20px;
+}
+
+.title-box form{
+    font-size: 1.2em;
 }
 
 .text-box{
     width: 70%;
-    padding-top: 30px;
-    padding-left: 30px;
 }
 
 .btn-box{
@@ -144,9 +206,9 @@ margin-left: 1.5rem;
 
 .section-title{
     width: 100%;
-    font-size: 2em;
-    font-weight: bold;
-    padding-left: 20px;
+    font-size: 1.8em;
+    font-weight: 800;
+    padding-bottom: 30px;
 }
 
 .img-element img{
@@ -166,6 +228,7 @@ margin-left: 1.5rem;
 .text-title{
     font-size: 1.7em;
     padding-bottom: 1em;
+    font-weight: 800;
 }
 
 .text-element > p{
