@@ -64,13 +64,13 @@ margin-left: 1.5rem;
 }
 
 .main-section{
-    background-color: rgba(180,208,231,255);
     width: 100%;
-    height: 800px;
+    height: 100%;
+    background-color: rgba(180,208,231,255);
 }
 
 .container{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     padding: 100px;
 }
@@ -151,6 +151,22 @@ margin-left: 1.5rem;
     margin: 50px 20px;
 }
 
+.floating-boxes{
+    width: 100%;
+}
+
+.float-side{
+    width: 30%;
+    height: 500px;
+    background-color: green;
+}
+
+.float-middle{
+    width: 40%;
+    height: 500px;
+    background-color: blue;
+}
+
 #max-width-card{
     width: calc(100% - 40px);
     height: 300px;
@@ -160,8 +176,12 @@ margin-left: 1.5rem;
     height: 100%; 
 }
 
-#bg-color-white{
+#btn-bg-color-white{
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+
+#shifted-text{
+    padding-left: 230px;
 }
