@@ -118,6 +118,7 @@ margin-left: 1.5rem;
     width: 100%;
     font-size: 2em;
     font-weight: bold;
+    padding-left: 20px;
 }
 
 .img-element img{
@@ -141,6 +142,13 @@ margin-left: 1.5rem;
 
 .text-element > p{
     padding-bottom: 1.5em;
+}
+
+.info-box{
+    background-color: coral;
+    width: calc((100% / 3) - 40px);
+    height: 400px;
+    margin: 50px 20px;
 }
 
 #max-width-card{
