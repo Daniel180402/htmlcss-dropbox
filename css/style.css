@@ -178,11 +178,6 @@ margin-left: 1.5rem;
     padding-top: 1em;
 }
 
-#subription-condition{
-    color: grey;
-    padding-bottom: 55px;
-}
-
 .title-box{
     padding-left: 20px;
 }
@@ -275,4 +270,9 @@ margin-left: 1.5rem;
 
 #shifted-text{
     padding-left: 230px;
+}
+
+#subription-condition{
+    color: grey;
+    padding-bottom: 55px;
 }
