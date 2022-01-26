@@ -94,3 +94,33 @@ margin-left: 1.5rem;
     background-color: pink;
     padding-right: 50px;
 }
+
+.container-small{
+    width: 85%;
+    max-width: 1180px;
+    min-width: 650px;
+    margin: 250px auto;
+    background-color: blueviolet;
+}
+
+.card{
+    width: calc((100% / 3) - 40px);
+    height: 800px;
+    margin: 20px 20px;
+    background-color: chartreuse;
+}
+
+.section-title{
+    width: 100%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#max-width-card{
+    width: calc(100% - 40px);
+    height: 300px;
+}
+
+#services{
+    height: 100%; 
+}
