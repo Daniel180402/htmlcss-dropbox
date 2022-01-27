@@ -143,7 +143,6 @@ margin-left: 1.5rem;
 }
 
 .freetest-btn{
-    text-align: center;
     padding-top: 2em;
 }
 
@@ -209,6 +208,7 @@ margin-left: 1.5rem;
 .img-element img{
     width: 100%;
     padding-right: 4em;
+    padding-left: 1em;
 }
 
 .img-element{
@@ -231,10 +231,13 @@ margin-left: 1.5rem;
 }
 
 .info-box{
-    background-color: coral;
     width: calc((100% / 3) - 40px);
-    height: 400px;
+    height: 600px;
     margin: 50px 20px;
+}
+
+.info-box-image > img{
+    width: 100%;
 }
 
 .floating-boxes{
@@ -255,7 +258,7 @@ margin-left: 1.5rem;
 
 #max-width-card{
     width: calc(100% - 40px);
-    height: 300px;
+    height: 250px;
 }
 
 #services{
@@ -275,4 +278,9 @@ margin-left: 1.5rem;
 #subription-condition{
     color: grey;
     padding-bottom: 55px;
+}
+
+#text-enterprise{
+    font-size: 0.9em;
+    padding-top: 30px;
 }
