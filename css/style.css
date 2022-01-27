@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+footer{
+    background-color: black;
+}
+
 p{
     line-height: 1.8em;
 }
@@ -332,6 +336,38 @@ margin-left: 1.5rem;
     font-size: 1.5em;
 }
 
+.footer-col{
+    width: calc(100% / 5 );
+    color: white;
+}
+
+.footer-col h5{
+    font-size: 1.5em;
+    padding-left: 8px;
+    padding-bottom: 15px;
+}
+
+.footer-col nav ul li {
+    list-style-type: none;
+    font-size: 1.2em;
+    padding: 8px;
+}
+
+.footer-col nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+#footer-bottom{
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.language p{
+    border-top: 1px white solid;
+    padding-top: 50px;
+}
+
 #max-width-card{
     width: calc(100% - 40px);
     height: 250px;
@@ -400,4 +436,8 @@ margin-left: 1.5rem;
 #text-darkred{
     color: #6a1d3f;
     padding-top: 60px;
+}
+
+#text-white{
+    color: lightgrey;
 }
