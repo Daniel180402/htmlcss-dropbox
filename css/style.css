@@ -19,6 +19,54 @@ hr{
     margin-bottom: 70px;
 }
 
+.dropdown-content, .faq > div{
+    position: absolute;
+}
+
+.dropdown, .floating-image, .box, .float-middle > div, .faq{
+    position: relative;
+}
+
+.logo img, .main-nav ul li, .btn{
+    vertical-align: middle;
+}
+
+.dropdown-content, .faq-text{
+    display: none;
+}
+
+.dropdown, .or{
+    display: inline-block;
+}
+
+.dropdown-content a, .dropdown:hover .dropdown-content, .floating-image img, .faq-hover:hover .faq-text{
+    display: block;
+}
+
+.main-nav ul li, .checklist ul, .footer-col nav ul li{
+    list-style-type: none;
+}
+
+.main-nav ul li a, .title{
+    font-weight: bold;
+}
+
+.dropdown-content a, .card-header{
+    text-align: center;
+}
+
+.main-nav ul li a, .btn, .footer-col nav ul li a{
+    text-decoration: none;
+}
+
+.container, .floating-image img{
+    margin: 0 auto;
+}
+
+.card-header, .or{
+    border-bottom: 1px solid grey;
+}
+
 .main-header{
     width: 100%;
     height: 80px;
@@ -40,15 +88,12 @@ hr{
 }
 
 .logo img{
-    vertical-align: middle;
     padding: 0 1.5rem;
 }
 
 .main-nav ul li{
-    list-style-type: none;
     display: inline;
     margin: 0 1.5rem;
-    vertical-align: middle;
     padding: 30px 0;
 }
 
@@ -58,23 +103,14 @@ hr{
 }
 
 .main-nav ul li a{
-    text-decoration: none;
     color: black;
-    font-weight: bold;
 }
 
 .main-nav ul li:nth-child(3){
     margin-right: 650px;
 }
 
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-
 .dropdown-content{
-    display: none;
-    position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -82,21 +118,13 @@ hr{
 }
 
 .dropdown-content a{
-    display: block;
     font-size: 0.9em;
-    text-align: center;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 .btn{
     background-color: #0061ff;
     color: white;
-    text-decoration: none;
     padding: 5px 15px;
-    vertical-align: middle;
 }
 
 .btn:hover{
@@ -119,7 +147,6 @@ margin-left: 1.5rem;
 
 .container{
     width: 90%;
-    margin: 0 auto;
     padding: 100px;
 }
 
@@ -127,7 +154,6 @@ margin-left: 1.5rem;
     width: 100%;
     padding-bottom: 80px;
     font-size: 3.3em;
-    font-weight: bold;
 }
 
 .img-element-jumbo{
@@ -172,9 +198,7 @@ margin-left: 1.5rem;
 .card-header{
     width: 100%;
     height: 45px;
-    border-bottom: 1px solid grey;
     line-height: 60px;
-    text-align: center;
 }
 
 .card-header > p{
@@ -184,7 +208,6 @@ margin-left: 1.5rem;
 
 .card-content{
     padding: 2em;
-    position: relative;
 }
 
 .card-content p{
@@ -208,8 +231,6 @@ margin-left: 1.5rem;
 }
 
 .or{
-    display: inline-block;
-    border-bottom: 1px solid grey;
     padding: 35px 0;
 }
 
@@ -217,13 +238,10 @@ margin-left: 1.5rem;
     padding-top: 40px;
 }
 
-.checklist ul{
-    list-style: none;
-}
-
 .checklist ul li{
     padding-left: 0.5em;
-    padding-top: 1em;
+    padding-top: 1.2em;
+    text-indent: -0.6em;
 }
 
 .title-box{
@@ -302,23 +320,19 @@ margin-left: 1.5rem;
 }
 
 .floating-image{ 
-    position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
 .floating-image img{
-    display: block;
     width: 70%;
-    margin: 0 auto;
     filter: invert(100%)
 }
 
 .box{
     width: calc(100% / 2);
     height: 50%;
-    position: relative;
 }
 
 .float-middle{
@@ -330,7 +344,6 @@ margin-left: 1.5rem;
 }
 
 .float-middle >div{
-    position: relative;
     left: 60px;
     top: 60px;
 }
@@ -355,28 +368,18 @@ margin-left: 1.5rem;
 
 .section-title > p{
     padding-top: 40px;
-    border-bottom: lightgrey 1px solid;
 }
 
 .faq{
     padding: 30px 0;
-    position: relative;
 }
 
-.faq-hover{
+.faq-hover, .section-title > p{
     border-bottom: lightgray 1px solid;
-}
-
-.faq-text{
-    display: none;
 }
 
 .faq-text > p{
     padding: 1.2em;
-}
-
-.faq-hover:hover .faq-text {
-    display: block;
 }
 
 .faq > h4{
@@ -384,15 +387,17 @@ margin-left: 1.5rem;
 }
 
 .faq > div{
-    position: absolute;
     right: 25px;
     bottom: 25px;
     font-size: 1.5em;
 }
 
+.footer-col, .footer-col nav ul li a{
+    color: white;
+}
+
 .footer-col{
     width: calc(100% / 5 );
-    color: white;
 }
 
 .footer-col h5{
@@ -402,17 +407,11 @@ margin-left: 1.5rem;
 }
 
 .footer-col nav ul li {
-    list-style-type: none;
     font-size: 1.2em;
     padding: 8px;
 }
 
-.footer-col nav ul li a{
-    color:white;
-    text-decoration: none;
-}
-
-.footer-col nav ul li a:hover{
+.footer-col nav ul li a:hover, #subription-condition{
     color: grey;
 }
 
@@ -454,7 +453,6 @@ margin-left: 1.5rem;
 }
 
 #subription-condition{
-    color: grey;
     padding-bottom: 55px;
 }
 
