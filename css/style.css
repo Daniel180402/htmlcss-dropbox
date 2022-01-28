@@ -135,6 +135,7 @@ margin-left: 1.5rem;
     max-width: 1180px;
     min-width: 650px;
     margin: 150px auto;
+    height: 100%;
 }
 
 .card{
@@ -334,9 +335,24 @@ margin-left: 1.5rem;
 }
 
 .faq{
-    border-bottom: lightgray 1px solid;
     padding: 30px 0;
     position: relative;
+}
+
+.faq-hover{
+    border-bottom: lightgray 1px solid;
+}
+
+.faq-text{
+    display: none;
+}
+
+.faq-text > p{
+    padding: 1.2em;
+}
+
+.faq-hover:hover .faq-text {
+    display: block;
 }
 
 .faq > h4{
