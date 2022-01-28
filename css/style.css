@@ -49,6 +49,12 @@ hr{
     display: inline;
     margin: 0 1.5rem;
     vertical-align: middle;
+    padding: 30px 0;
+}
+
+.main-nav ul li:hover{
+    background-color: rgb(219, 219, 219);
+    border-bottom: 4px solid black;
 }
 
 .main-nav ul li a{
@@ -58,7 +64,7 @@ hr{
 }
 
 .main-nav ul li:nth-child(3){
-    padding-right: 650px;
+    margin-right: 650px;
 }
 
 .btn{
@@ -67,6 +73,14 @@ hr{
     text-decoration: none;
     padding: 5px 15px;
     vertical-align: middle;
+}
+
+.btn:hover{
+    filter: grayscale(50%);
+}
+
+.btn:active{
+    background-color: blue;
 }
 
 .start > .btn{
@@ -358,6 +372,10 @@ margin-left: 1.5rem;
     text-decoration: none;
 }
 
+.footer-col nav ul li a:hover{
+    color: grey;
+}
+
 #footer-bottom{
     padding-top: 100px;
     padding-left: 10px;
@@ -381,6 +399,14 @@ margin-left: 1.5rem;
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+
+#btn-bg-color-white:hover{
+    background-color: rgb(196, 196, 196);
+}
+
+#btn-bg-color-white:active{
+    background-color: rgb(126, 126, 126);
 }
 
 #shifted-text{
